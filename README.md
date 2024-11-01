@@ -58,8 +58,6 @@ npm run preview: Serves the production build locally.
 npm run lint: Lints all TypeScript and JavaScript files in the project using ESLint.
 Folder Structure
 
-graphql
-Copy code
 Final_index
 ├── .bolt/                 # Configuration and prompt files
 ├── .git/                  # Git version control files
@@ -75,6 +73,7 @@ Final_index
 ├── package.json           # Project dependencies and scripts
 ├── postcss.config.js      # PostCSS configuration for Tailwind
 └── README.md              # Project documentation
+
 Key Directories and Files
 .bolt/: Contains configurations related to additional tooling, if needed.
 src/components: Houses all reusable React components like the navbar, modals, and scanning interface.
